@@ -52,3 +52,10 @@ class Person:
         return isinstance(input_str, str) and ' ' in input_str
 
 Person.__dict__
+
+person = Person('Mark Twain')
+person.name, person.surname
+
+person = Person('Mark_Twain')
+person = Person(4)
+person = Person('Mark Twain')
