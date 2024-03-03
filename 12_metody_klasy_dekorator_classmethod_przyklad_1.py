@@ -1,3 +1,13 @@
+"""
+The selected code demonstrates using the @classmethod decorator to define a class method 
+called show() on the Phone class. 
+
+The show() method prints out all instances of the Phone class that have been created. It 
+accesses the instances class attribute to get the list of Phone instances.
+
+Two Phone instances (phone1 and phone2) are created to demonstrate the show() class method 
+printing out those instances.
+"""
 class Phone:
 
     instances = []

@@ -1,3 +1,8 @@
+"""
+Demonstrates using the @property decorator to create getter and setter methods
+for a class attribute. Allows accessing the attribute like a normal attribute 
+while running custom code when getting and setting.
+"""
 class Phone:
 
     def __init__(self, price):

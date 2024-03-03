@@ -1,3 +1,8 @@
+"""Model class to evaluate classification performance.
+
+Tracks ground truth labels and predictions, and calculates accuracy on demand.
+Accuracy is cached until labels or predictions are modified.
+"""
 class Model:
 
     def __init__(self, y_true, y_pred):

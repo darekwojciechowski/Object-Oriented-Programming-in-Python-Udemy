@@ -1,3 +1,11 @@
+"""Defines a Game class with a level property that enforces value bounds.
+
+The level property uses a setter to clamp values between 0 and 100. 
+The class constructor sets a default level of 0.
+
+Some example Game instances are created and their level property 
+printed to demonstrate the clamping behavior.
+"""
 class Game:
 
     def __init__(self, level=0):

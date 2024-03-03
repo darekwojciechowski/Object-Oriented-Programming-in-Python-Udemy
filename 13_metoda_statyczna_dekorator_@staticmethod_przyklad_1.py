@@ -1,3 +1,15 @@
+"""Demonstrates using the @staticmethod decorator to define a static method 
+get_current_time() on the Phone class. This allows getting the current time 
+without having to instantiate a Phone instance. 
+
+Instances of Phone are created, passing self to __init__ which calls the static
+get_current_time() to set creation_time. 
+
+Phone.instances is used to keep a list of all Phone instances.
+
+The instances are printed out along with their creation times to show that 
+they were created at different times.
+"""
 import time
 
 class Phone:

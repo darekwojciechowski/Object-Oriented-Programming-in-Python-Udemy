@@ -1,3 +1,16 @@
+"""
+Demonstrates using a classmethod to keep track of all 
+instances of a class.
+
+The Phone class keeps a list of all Phone instances in the
+Phone.instances class attribute. 
+
+The show() classmethod prints information about the 
+instances.
+
+Two Phone instances are created, and the show() method is
+called to print information about them.
+"""
 class Phone:
 
     instances = []
