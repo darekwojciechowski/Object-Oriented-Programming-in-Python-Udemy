@@ -15,7 +15,6 @@ the _coords attribute.
 
 Also shows using __repr__ to customize the string representation.
 """
-help(len)
 
 help(len)
 
