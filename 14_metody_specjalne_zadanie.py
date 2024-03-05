@@ -1,5 +1,6 @@
 '''
-Zbuduj klasę o nazwie Integer, która imitować będzie liczbę całkowitą. Zaimplementuj poniższe:
+Zbuduj klasę o nazwie Integer, która imitować będzie liczbę całkowitą.
+Zaimplementuj poniższe:
 
 metodę __init__(), jeżeli użytkownik nie przekaże żadnego argumentu ustaw wartość 0.
 metodę __str__() będącą nieformalną reprezentacją obiektu
@@ -40,3 +41,5 @@ z
 x + z
 x - z
 print(x)
+print(y)
+print(z)
