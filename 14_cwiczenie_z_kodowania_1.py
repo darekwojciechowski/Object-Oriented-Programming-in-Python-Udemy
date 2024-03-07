@@ -20,3 +20,14 @@ W odpowiedzi wydrukuj instancję worker do konsoli.
 Oczekiwany wynik:
 Worker(fname='Mike', lname='Smith')
 '''
+
+class Worker:
+  def __init__(self, fname, lname):
+    self.fname = fname
+    self.lname = lname
+  
+  def __repr__(self):
+    return f"Worker(fname='{self.fname}', lname='{self.lname}')"
+
+worker = Worker('Mike', 'Smith')
+print(worker)
