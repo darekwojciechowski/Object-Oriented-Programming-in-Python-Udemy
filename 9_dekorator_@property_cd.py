@@ -1,3 +1,5 @@
+#   9_dekorator_@property_cd
+
 class Phone:
 
     def __init__(self, price):

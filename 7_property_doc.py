@@ -1,3 +1,5 @@
+#   7_property_doc
+
 class Phone:
     """Phone class docs."""
 

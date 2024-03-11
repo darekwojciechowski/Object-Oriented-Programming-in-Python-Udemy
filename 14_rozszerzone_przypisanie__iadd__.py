@@ -1,3 +1,4 @@
+#   14 rozszerzone przypisanie__iadd__
 '''
 operator	metoda
 +=	object.__iadd__(self, other)

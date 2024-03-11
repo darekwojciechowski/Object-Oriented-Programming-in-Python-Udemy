@@ -1,3 +1,5 @@
+#   15 dziedziczenie klas zadanie
+
 '''
 Zadanie
 Zaimplementuj poniższą hierarchię klas:

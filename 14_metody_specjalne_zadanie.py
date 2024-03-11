@@ -1,3 +1,4 @@
+#   14 metody specjalne zadanie
 '''
 Zbuduj klasę o nazwie Integer, która imitować będzie liczbę całkowitą.
 Zaimplementuj poniższe:

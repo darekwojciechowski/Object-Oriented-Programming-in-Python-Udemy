@@ -1,3 +1,5 @@
+#   5_walidacja
+
 class Phone:
 
     def __init__(self, price):

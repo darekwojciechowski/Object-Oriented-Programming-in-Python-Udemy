@@ -1,3 +1,5 @@
+#   14_operatory_dwuargumentowe__mul__
+
 class Point:
 
     def __init__(self, *coords):

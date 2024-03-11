@@ -1,3 +1,5 @@
+#   15 dziedziczenie klas super
+
 class Vehicle:
 
     def __init__(self, brand, year):

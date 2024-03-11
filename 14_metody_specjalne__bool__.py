@@ -1,3 +1,5 @@
+#   14_metody_specjalne__bool__
+
 class Point:
 
     def __init__(self, *coords):

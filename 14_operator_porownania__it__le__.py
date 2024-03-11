@@ -1,3 +1,4 @@
+#   14_operator_porownania__it__le__
 '''
 The lt method in Python is used to define behavior for the less than (<) operator between objects of a class.
 

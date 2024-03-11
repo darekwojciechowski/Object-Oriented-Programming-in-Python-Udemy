@@ -1,3 +1,4 @@
+#   Dziedziczenie wielopoziomowe - Multilevel Inheritance
 '''
 Pojedyncze dziedziczenie - Single Inheritance
 Vehicle:

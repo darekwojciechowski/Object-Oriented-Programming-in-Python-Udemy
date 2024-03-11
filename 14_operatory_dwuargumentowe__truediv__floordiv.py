@@ -1,3 +1,5 @@
+#   14_operatory_dwuargumentowe__truediv__floordiv
+
 class Point:
 
     def __init__(self, *coords):

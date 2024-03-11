@@ -1,3 +1,5 @@
+#   8_dekoratory
+
 def pretty_print(func):
     def wrapper():
         print('=' * 30)

@@ -1,3 +1,5 @@
+#   9_dekorator_@property_cwieczenie_3
+
 class Pet:
     def __init__(self, name):
         self._name = name

@@ -1,3 +1,5 @@
+#   11_obliczanie_atrybutow_cd
+
 class Model:
 
     def __init__(self, y_true, y_pred):
