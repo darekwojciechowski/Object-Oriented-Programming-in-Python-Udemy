@@ -1,4 +1,4 @@
-#   9_dekorator_@property_cd
+#   Dekorator @property - c. d.
 
 class Phone:
 
@@ -19,22 +19,13 @@ class Phone:
             else:
                 raise ValueError('The price attribute must be positive.')
         else:
-            raise TypeError('The price attribute must be an int or float value.')
+            raise TypeError('The price attribute must be an int or float value.') 
 
     @price.deleter
     def price(self):
         print('deleting...')
         del self._price
 
-print(Phone.__dict__)
+Phone.__dict__
 
 phone = Phone(2000)
-phone.price
-
-del phone.price
-
-print(phone.__dict__)
-
-phone.price = -1000
-
-phone.price = 'fsds'

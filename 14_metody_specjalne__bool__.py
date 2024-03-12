@@ -1,3 +1,4 @@
+#   161. Metoda __bool__()
 #   14_metody_specjalne__bool__
 
 class Point:

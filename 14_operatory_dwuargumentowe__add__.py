@@ -1,4 +1,4 @@
-#   14_operatory_dwuargumentowe__add__
+#   162. Operatory dwuargumentowe - __add__()
 '''
 Podstawowe operatory:
 

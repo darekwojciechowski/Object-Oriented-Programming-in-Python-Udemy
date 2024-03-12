@@ -1,5 +1,6 @@
 '''
-Hermetyzacja - Intro
+118. Hermetyzacja - Intro
+
 Hermetyzacja w języku Python odnosi się do mechanizmu kontroli dostępu do atrybutów i 
 metod obiektów. Głównym celem hermetyzacji jest ukrycie pewnych elementów obiektu 
 przed bezpośrednim dostępem z zewnątrz. W Pythonie hermetyzacja jest często osiągana 
