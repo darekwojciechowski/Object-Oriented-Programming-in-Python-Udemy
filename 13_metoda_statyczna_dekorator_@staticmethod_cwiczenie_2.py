@@ -21,14 +21,15 @@ pdf
 png
 '''
 
+
 class FileUtils:
     @staticmethod
     def file_extension(filename):
         if '.' not in filename:
             return ''
         return filename.split('.')[-1]
- 
- 
+
+
 print(FileUtils.file_extension('file.txt'))
 print(FileUtils.file_extension('document.pdf'))
 print(FileUtils.file_extension('no_extension'))

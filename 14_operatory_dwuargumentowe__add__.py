@@ -18,6 +18,7 @@ zostanie wywołana metoda
 a.__add__(b)
 '''
 
+
 class Point:
 
     def __init__(self, *coords):
@@ -39,11 +40,12 @@ class Point:
     def coords(self):
         return self._coords
 
+
 p1 = Point(4, 2)
 p2 = Point(5, 2)
 p1 + p2
 p1.__add__(p2)
 p1 + 5
 
-#p1 + 'var1'
-#p1 + False
+# p1 + 'var1'
+# p1 + False

@@ -14,7 +14,8 @@ class Person:
 
     @property
     def surname(self):
-        return self._surname 
+        return self._surname
+
 
 Person.__dict__
 
@@ -22,8 +23,9 @@ person = Person('Mark Twain')
 person.__dict__
 person.name, person.surname
 
-#person = Person('Mark')
-#person = Person('Mark-Twain')
+# person = Person('Mark')
+# person = Person('Mark-Twain')
+
 
 class Person:
 
@@ -37,7 +39,7 @@ class Person:
                 raise ValueError('The object cannot be created.')
         else:
             raise ValueError('Please insert a space between your name and '
-                'surname.')
+                             'surname.')
 
     @property
     def name(self):
@@ -45,11 +47,12 @@ class Person:
 
     @property
     def surname(self):
-        return self._surname 
+        return self._surname
 
     @staticmethod
     def _is_string_with_space(input_str):
         return isinstance(input_str, str) and ' ' in input_str
+
 
 Person.__dict__
 

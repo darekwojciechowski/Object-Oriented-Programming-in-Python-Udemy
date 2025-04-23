@@ -1,4 +1,4 @@
-'''
+s'''
 118. Hermetyzacja - Intro
 
 Hermetyzacja w języku Python odnosi się do mechanizmu kontroli dostępu do atrybutów i 
@@ -21,16 +21,18 @@ klasy, ponieważ ich nazwy są zmieniane w sposób, który zależy od nazwy klas
 Przykład:
 '''
 
+
 class MojaKlasa:
     def __init__(self):
         self.__prywatna_zmienna = 42
- 
+
     def publiczna_metoda(self):
         print("To jest publiczna metoda")
- 
+
     def __prywatna_metoda(self):
         print("To jest prywatna metoda")
- 
+
+
 obiekt = MojaKlasa()
 print(obiekt.__prywatna_zmienna)  # To spowoduje błąd
 obiekt.publiczna_metoda()         # To jest poprawne

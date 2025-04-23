@@ -19,12 +19,14 @@ class Phone:
             else:
                 raise ValueError('The price attribute must be positive.')
         else:
-            raise TypeError('The price attribute must be an int or float value.') 
+            raise TypeError(
+                'The price attribute must be an int or float value.')
 
     @price.deleter
     def price(self):
         print('deleting...')
         del self._price
+
 
 Phone.__dict__
 

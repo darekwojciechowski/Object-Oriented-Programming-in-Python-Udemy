@@ -18,12 +18,13 @@ Oczekiwany wynik:
 
 '''
 
+
 class Smartphone:
     def __init__(self, brand, model, price):
         self.brand = brand
         self._model = model
         self.__price = price
- 
- 
+
+
 smartphone = Smartphone('Huawei', 'Mate 20 Pro', 1999)
 print(smartphone.__dict__)

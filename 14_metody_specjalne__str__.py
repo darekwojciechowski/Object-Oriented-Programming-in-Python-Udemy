@@ -2,6 +2,7 @@ help(object.__str__)
 
 help(str)
 
+
 class Phone:
 
     def __init__(self, brand):
@@ -13,6 +14,7 @@ class Phone:
     def __str__(self):
         return f'{self.brand} brand mobile phone.'
 
+
 phone = Phone('Apple')
 phone
 
@@ -21,6 +23,7 @@ str(phone)
 repr(phone)
 phone.__repr__()
 phone.__str__()
+
 
 class Phone:
 
@@ -32,6 +35,7 @@ class Phone:
 
     def __str__(self):
         return f'{self.brand} brand mobile phone.'
+
 
 phone = Phone('Apple')
 phone

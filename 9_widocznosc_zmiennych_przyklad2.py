@@ -11,7 +11,7 @@ class HouseProject:
 
 def info_ext(instance):
     print(f'Area: {instance._HouseProject__area}')
-    print(f'Number of floors: {instance._HouseProject__number_of_floors}')    
+    print(f'Number of floors: {instance._HouseProject__number_of_floors}')
 
 
 project = HouseProject(100, 1)

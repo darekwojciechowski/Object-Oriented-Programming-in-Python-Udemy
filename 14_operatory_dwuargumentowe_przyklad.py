@@ -16,6 +16,7 @@ class Doc:
             return NotImplemented
         return Doc(self.string + ' ' + other.string)
 
+
 Doc.__dict__
 
 doc1 = Doc('Object')

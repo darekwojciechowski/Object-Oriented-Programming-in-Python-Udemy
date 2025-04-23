@@ -12,6 +12,7 @@ they were created at different times.
 """
 import time
 
+
 class Phone:
 
     instances = []
@@ -23,6 +24,7 @@ class Phone:
     @staticmethod
     def get_current_time():
         return time.strftime('%H:%M:%S', time.localtime())
+
 
 Phone.__dict__
 

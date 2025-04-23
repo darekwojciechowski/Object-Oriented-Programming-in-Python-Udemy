@@ -7,6 +7,7 @@ operator	metoda
 /=	object.__itruediv__(self, other)
 '''
 
+
 class Doc:
 
     def __init__(self, string):
@@ -26,7 +27,8 @@ class Doc:
     def __iadd__(self, other):
         if not isinstance(other, Doc):
             return NotImplemented
-        return Doc(self.string + '-' + other.string)      
+        return Doc(self.string + '-' + other.string)
+
 
 Doc.__dict__
 

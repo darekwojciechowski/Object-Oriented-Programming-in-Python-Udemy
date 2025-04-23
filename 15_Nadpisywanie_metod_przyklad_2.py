@@ -26,11 +26,13 @@ class Player(User):
     def work(self):
         print('Playing...')
 
+
 user = User()
 user.make_session()
 
 player = Player()
 player.make_session()
+
 
 class User:
 
@@ -59,6 +61,7 @@ class Player(User):
 
     def work(self):
         print('Playing...')
+
 
 user = User()
 user.make_session()

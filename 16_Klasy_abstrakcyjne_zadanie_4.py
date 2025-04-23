@@ -19,7 +19,7 @@ class Plane(Vehicle):
 class Car(Vehicle):
 
     def show_activity(self):
-        print(f'{self.__class__.__name__} -> I can drive.')    
+        print(f'{self.__class__.__name__} -> I can drive.')
 
 
 vehicles = [Plane(), Car()]

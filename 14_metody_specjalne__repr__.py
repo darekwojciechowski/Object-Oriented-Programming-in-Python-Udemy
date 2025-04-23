@@ -7,21 +7,25 @@ help(object.__repr__)
 #   __repr__ -> zwraca formalną reprezentacje obiektu
 repr(object)
 
+
 class Phone:
 
     def __init__(self, brand):
         self.brand = brand
+
 
 Phone.__dict__
 
 Phone
 repr(Phone)
 print(Phone)
-phone = Phone('Apple')# No code was selected, so no documentation can be generated.
+# No code was selected, so no documentation can be generated.
+phone = Phone('Apple')
 
 phone
 repr(phone)
 print(phone)
+
 
 class Phone:
 
@@ -30,6 +34,7 @@ class Phone:
 
     def __repr__(self):
         return f"Phone(brand='{self.brand}')"
+
 
 Phone.__dict__
 

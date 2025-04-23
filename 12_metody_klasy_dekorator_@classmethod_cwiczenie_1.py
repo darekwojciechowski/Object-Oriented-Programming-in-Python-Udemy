@@ -15,19 +15,20 @@ konsoli wywołanie metody count_instances().
 Oczekiwany wynik:
 3
 '''
+
+
 class Worker:
     instances = []
- 
+
     def __init__(self):
         Worker.instances.append(self)
-    
+
     @classmethod
     def count_instances(cls):
         return len(Worker.instances)
- 
- 
+
+
 p1 = Worker()
 p2 = Worker()
 p3 = Worker()
 print(Worker.count_instances())
-

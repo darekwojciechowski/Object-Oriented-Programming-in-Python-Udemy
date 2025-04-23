@@ -57,6 +57,7 @@ class Triangle(Figure):
     def perimeter(self):
         return self.a + self.b + self.c
 
+
 figures = [Square(), Square(5), Square(10), Circle(), Circle(5), Circle(10),
            Triangle(3, 4, 5)]
 

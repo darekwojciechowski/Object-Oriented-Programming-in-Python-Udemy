@@ -37,7 +37,7 @@ class Circle(Figure):
 
     def perimeter(self):
         return 2 * math.pi * self.radius
-    
+
 
 figures = [Square(), Square(5), Square(10), Circle(), Circle(5), Circle(10)]
 

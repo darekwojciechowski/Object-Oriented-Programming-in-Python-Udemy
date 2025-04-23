@@ -1,5 +1,5 @@
 class Vehicle:
-    
+
     year = 2010
 
     def info(self):
@@ -7,16 +7,17 @@ class Vehicle:
 
 
 class Car(Vehicle):
-    
+
     year = 2020
-    
+
+
 vehicles = [Vehicle(), Car()]
 for vehicle in vehicles:
     vehicle.info()
 
 
 class Vehicle:
-    
+
     year = 2010
 
     def info(self):
@@ -24,11 +25,10 @@ class Vehicle:
 
 
 class Car(Vehicle):
-    
+
     year = 2020
 
 
 vehicles = [Vehicle(), Car()]
 for vehicle in vehicles:
     vehicle.info()
-

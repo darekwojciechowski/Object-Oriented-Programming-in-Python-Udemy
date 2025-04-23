@@ -13,19 +13,20 @@ class Vehicle:
         print(f'{self} -> Moving...')
 
 
-class LandVehicle(Vehicle): 
+class LandVehicle(Vehicle):
 
     def display_info(self):
         print(f'LandVehicle category: {self.category}')
 
     def show_activity(self):
-        print(f'{self} -> Driving...')        
+        print(f'{self} -> Driving...')
 
 
 class AirVehicle(Vehicle):
-    
+
     def show_activity(self):
-        print(f'{self} -> Flying...')    
+        print(f'{self} -> Flying...')
+
 
 vehicles = [Vehicle(), LandVehicle(), AirVehicle('air')]
 vehicles

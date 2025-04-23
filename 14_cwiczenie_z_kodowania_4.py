@@ -27,18 +27,19 @@ True
 False
 '''
 
+
 class Person:
     def __init__(self, name, age, nationality):
         self.name = name
         self.age = age
         self.nationality = nationality
- 
+
     def __bool__(self):
         return self.age >= 18
- 
- 
+
+
 person1 = Person('Alice', 25, 'American')
 person2 = Person('Bob', 15, 'British')
- 
+
 print(bool(person1))
 print(bool(person2))

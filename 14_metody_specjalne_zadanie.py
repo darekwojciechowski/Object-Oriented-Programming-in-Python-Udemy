@@ -9,6 +9,8 @@ metodę __repr__() będącą formalną reprezentacją obiektu
 metodę __add__(), która pozwala na dodawanie obiektów klasy Integer
 metodę __sub__(), która pozwala na odejmowanie obiektów klasy Integer
 '''
+
+
 class Integer:
 
     def __init__(self, val=0):
@@ -28,7 +30,8 @@ class Integer:
     def __sub__(self, other):
         if not isinstance(other, Integer):
             return NotImplemented
-        return Integer(self.val - other.val)    
+        return Integer(self.val - other.val)
+
 
 x = Integer(3)
 x

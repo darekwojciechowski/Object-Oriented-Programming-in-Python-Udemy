@@ -8,6 +8,8 @@ accesses the instances class attribute to get the list of Phone instances.
 Two Phone instances (phone1 and phone2) are created to demonstrate the show() class method 
 printing out those instances.
 """
+
+
 class Phone:
 
     instances = []
@@ -24,11 +26,13 @@ class Phone:
         else:
             print(f'There is no instance of the {Phone.__name__} class.')
 
+
 Phone.__dict__
 Phone.show()
 phone1 = Phone()
 phone2 = Phone()
 Phone.show()
+
 
 class Phone:
 
@@ -45,6 +49,7 @@ class Phone:
                 print(f'\t{instance}')
         else:
             print(f'There is no instance of the {cls.__name__} class.')
+
 
 Phone.__dict__
 Phone.show()

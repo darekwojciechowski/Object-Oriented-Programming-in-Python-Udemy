@@ -29,6 +29,7 @@ So in summary, eq allows you to customize equality comparison behavior for class
 
 help(object.__eq__)
 
+
 class Doc:
 
     def __init__(self, string):
@@ -43,12 +44,13 @@ class Doc:
     def __add__(self, other):
         if not isinstance(other, Doc):
             return NotImplemented
-        return Doc(self.string + ' ' + other.string) 
+        return Doc(self.string + ' ' + other.string)
 
     def __eq__(self, other):
         if not isinstance(other, Doc):
             return False
         return len(self.string) == len(other.string)
+
 
 doc1 = Doc('ABC')
 doc2 = Doc('XYZ')

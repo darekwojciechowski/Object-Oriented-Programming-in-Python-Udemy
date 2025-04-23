@@ -27,7 +27,7 @@ class Point:
         if not isinstance(other, Point):
             return NotImplemented
         coords = tuple(x * y for x, y in zip(self.coords, other.coords))
-        return Point(*coords) 
+        return Point(*coords)
 
     def __truediv__(self, other):
         if not isinstance(other, Point):
@@ -36,7 +36,7 @@ class Point:
             if coord == 0:
                 raise ZeroDivisionError('Division by zero.')
         coords = tuple(x / y for x, y in zip(self.coords, other.coords))
-        return Point(*coords)                
+        return Point(*coords)
 
     def __floordiv__(self, other):
         if not isinstance(other, Point):
@@ -45,11 +45,12 @@ class Point:
             if coord == 0:
                 raise ZeroDivisionError('Division by zero.')
         coords = tuple(x // y for x, y in zip(self.coords, other.coords))
-        return Point(*coords)          
+        return Point(*coords)
 
     @property
     def coords(self):
         return self._coords
+
 
 p1 = Point(4, 2)
 p2 = Point(2, 3)

@@ -20,13 +20,14 @@ Oczekiwany wynik:
     price -> 1999
 '''
 
+
 class Smartphone:
     def __init__(self, brand, model, price):
         self.brand = brand
         self._model = model
         self.__price = price
- 
- 
+
+
 smartphone = Smartphone('Huawei', 'Mate 20 Pro', 1999)
 print(f'brand -> {smartphone.brand}')
 print(f'model -> {smartphone._model}')

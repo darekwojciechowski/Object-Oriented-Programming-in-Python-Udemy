@@ -1,13 +1,12 @@
 #   201. Klasy abstrakcyjne - klasa ABC oraz dekorator @abstractmethod
 
+from abc import ABC, abstractmethod
 import abc
 
 
 help(abc.ABC)
 
 help(abc.abstractmethod)
-
-from abc import ABC, abstractmethod
 
 
 class Figure(ABC):

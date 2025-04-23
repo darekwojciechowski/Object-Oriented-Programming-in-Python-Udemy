@@ -27,8 +27,9 @@ __hash__ powinna zwrucić wartość całkowita
 
 help(hash)
 
+
 class Doc:
-    
+
     def __init__(self, string):
         self.string = string
 
@@ -40,6 +41,7 @@ class Doc:
 
     def __hash__(self):
         return hash(self.string)
+
 
 doc1 = Doc('OOP')
 doc2 = Doc('OOP')

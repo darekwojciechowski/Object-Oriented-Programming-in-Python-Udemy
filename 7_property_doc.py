@@ -18,12 +18,15 @@ class Phone:
             else:
                 raise ValueError('The price attribute must be positive.')
         else:
-            raise TypeError('The price attribute must be an int or float value.')
+            raise TypeError(
+                'The price attribute must be an int or float value.')
 
     def del_price(self):
         print('deleting...')
         del self._price
 
-    price = property(fget=get_price, fset=set_price, fdel=del_price, doc='Phone price.')
+    price = property(fget=get_price, fset=set_price,
+                     fdel=del_price, doc='Phone price.')
+
 
 help(Phone)

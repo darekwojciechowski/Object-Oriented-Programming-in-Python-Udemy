@@ -21,14 +21,15 @@ Oczekiwany wynik:
 {'brand': 'Huawei', '_model': 'Mate 20 Pro', '_Smartphone__price': 1999}
 '''
 
+
 class Smartphone:
-    def __init__(self,brand,model,price):
+    def __init__(self, brand, model, price):
         self.brand = brand  # atrybut publiczny
-        self._model = model # atrybut chroniony
+        self._model = model  # atrybut chroniony
         self.__price = price  # atrybut prywatny
 
 
-smartphone = Smartphone('Huawei','Mate 20 Pro',1999)
+smartphone = Smartphone('Huawei', 'Mate 20 Pro', 1999)
 print(smartphone.__dict__)
 
 
@@ -40,14 +41,16 @@ Oczekiwany wynik:
     model -> Mate 20 Pro
     price -> 1999
 '''
+
+
 class Smartphone:
-    def __init__(self,brand,model,price):
+    def __init__(self, brand, model, price):
         self.brand = brand  # atrybut publiczny
-        self._model = model # atrybut chroniony
+        self._model = model  # atrybut chroniony
         self.__price = price  # atrybut prywatny
 
 
 smartphone = Smartphone('Huawei', 'Mate 20 Pro', 1999)
 print(f'brand -> {smartphone.brand}')  # atrybut publiczny
-print(f'model -> {smartphone._model}') # atrybut chroniony
+print(f'model -> {smartphone._model}')  # atrybut chroniony
 print(f'price -> {smartphone._Smartphone__price}')  # atrybut prywatny

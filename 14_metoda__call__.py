@@ -1,5 +1,5 @@
 class Doc:
-    
+
     def __init__(self, string):
         self.string = string
 
@@ -8,6 +8,7 @@ class Doc:
 
     def __call__(self):
         print(f'Wywołanie... {self}')
+
 
 doc1 = Doc('OOP')
 doc1

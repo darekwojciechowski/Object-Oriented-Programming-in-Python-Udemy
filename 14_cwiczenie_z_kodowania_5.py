@@ -18,20 +18,21 @@ Przykłady:
 [OUT]: False
 '''
 
+
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
- 
+
     def __eq__(self, other):
         if not isinstance(other, Point):
             return False
         return self.x == other.x and self.y == other.y
- 
- 
+
+
 point1 = Point(2, 3)
 point2 = Point(2, 3)
 point3 = Point(4, 5)
- 
+
 print(point1 == point2)
 print(point1 == point3)

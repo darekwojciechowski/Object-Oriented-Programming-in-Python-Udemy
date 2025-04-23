@@ -17,12 +17,13 @@ metodę from_csv()):
 W odpowiedzi wydrukuj atrybut __dict__ tak utworzonej instancji.
 '''
 
+
 class Student:
     def __init__(self, name, age, gpa):
         self.name = name
         self.age = age
         self.gpa = gpa
- 
+
     @classmethod
     def from_csv(cls, csv_string):
         values = csv_string.split(',')
@@ -30,8 +31,8 @@ class Student:
         age = int(values[1])
         gpa = float(values[2])
         return cls(name, age, gpa)
- 
- 
+
+
 csv_string = 'Alice,22,3.5'
 student = Student.from_csv(csv_string)
 print(student.__dict__)

@@ -10,5 +10,6 @@ class Laptop:
         print(self._code)
         print(self.__wholesale_price)
 
+
 laptop = Laptop('Apple', '0043', 3000)
 laptop.info()

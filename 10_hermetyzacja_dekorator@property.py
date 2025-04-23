@@ -10,6 +10,7 @@ class Phone:
         print('getting...')
         return self._price
 
+
 Phone.__dict__
 
 phone = Phone(2000)

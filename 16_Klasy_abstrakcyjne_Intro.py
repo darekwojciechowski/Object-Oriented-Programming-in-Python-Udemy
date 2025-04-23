@@ -13,24 +13,29 @@ Główne cechy klas abstrakcyjnych w Pythonie:
 Przykład klasy abstrakcyjnej w Pythonie za pomocą modułu abc:
 '''
 from abc import ABC, abstractmethod
- 
+
 # Base class (or parent class)
+
+
 class Animal(ABC):
     def __init__(self, species):
         self.species = species
- 
+
     @abstractmethod
     def eat(self):
         pass
- 
+
 # Derived class (or child class) inheriting from Animal
+
+
 class Bird(Animal):
     def eat(self):
         print(f"{self.species} eats insects")
- 
+
+
 # Creating an instance of the derived class
 eagle = Bird("Eagle")
- 
+
 # Calling the inherited method from the abstract base class
 eagle.eat()  # Output: "Eagle eats insects"
 

@@ -13,6 +13,7 @@ class Laptop:
     def display_price_pln(self):
         print(Laptop.__convert_price(self.net_price))
 
+
 Laptop.__dict__
 
 laptop = Laptop(3000)

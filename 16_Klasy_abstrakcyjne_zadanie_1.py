@@ -28,7 +28,8 @@ class Square(Figure):
 
     def perimeter(self):
         return self.a * 4
-    
+
+
 figures = [Square(), Square(5), Square(10)]
 
 for figure in figures:

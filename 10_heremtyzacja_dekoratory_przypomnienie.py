@@ -7,9 +7,11 @@ def pretty_print(func):
         print('=' * 30)
     return wrapper
 
+
 @pretty_print
 def hello():
     print('Python 3.8')
+
 
 hello
 

@@ -18,6 +18,7 @@ Also shows using __repr__ to customize the string representation.
 
 help(len)
 
+
 class Point:
 
     def __init__(self, *coords):
@@ -35,7 +36,8 @@ class Point:
     @property
     def coords(self):
         return self._coords
-    
+
+
 p = Point(3, 4)
 p.__dict__
 p.coords

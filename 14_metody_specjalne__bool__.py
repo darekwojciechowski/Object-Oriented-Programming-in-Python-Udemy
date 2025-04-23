@@ -18,10 +18,12 @@ class Point:
     @property
     def coords(self):
         return self._coords
-    
+
+
 p = Point()
-q = Point(4,2)
-bool(p), bool(q) #(False, True)
+q = Point(4, 2)
+bool(p), bool(q)  # (False, True)
+
 
 class Point:
 
@@ -43,7 +45,8 @@ class Point:
     @property
     def coords(self):
         return self._coords
-    
+
+
 p = Point(1, 2)
 bool(p)
 p = Point(1, 2, -3)

@@ -26,6 +26,7 @@ So in summary, lt allows customized ordering logic for objects of a class using 
 '''
 #   metoda __le__ less then
 
+
 class Doc:
 
     def __init__(self, string):
@@ -40,7 +41,7 @@ class Doc:
     def __add__(self, other):
         if not isinstance(other, Doc):
             return NotImplemented
-        return Doc(self.string + ' ' + other.string) 
+        return Doc(self.string + ' ' + other.string)
 
     def __eq__(self, other):
         if not isinstance(other, Doc):
@@ -56,6 +57,7 @@ class Doc:
         if not isinstance(other, Doc):
             return NotImplemented
         return len(self.string) <= len(other.string)
+
 
 doc1 = Doc('AB')
 doc2 = Doc('XYZ')

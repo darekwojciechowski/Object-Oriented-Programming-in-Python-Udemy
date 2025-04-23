@@ -15,17 +15,20 @@ dostępu do instancji ani jej atrybutów.
 
 Przykład użycia dekoratora @staticmethod:
 '''
+
+
 class KlasaPrzykladowa:
     def __init__(self, nazwa):
         self.nazwa = nazwa
- 
+
     @staticmethod
     def statyczna_metoda():
         print("To jest metoda statyczna")
- 
+
+
 # Tworzenie instancji klasy
 obiekt = KlasaPrzykladowa("Obiekt 1")
- 
+
 # Wywołanie metody statycznej bez tworzenia instancji
 KlasaPrzykladowa.statyczna_metoda()
 

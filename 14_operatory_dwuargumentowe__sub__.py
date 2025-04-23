@@ -26,7 +26,8 @@ class Point:
     @property
     def coords(self):
         return self._coords
-    
+
+
 p1 = Point(4, 2)
 p2 = Point(3, 2)
 p1 - p2

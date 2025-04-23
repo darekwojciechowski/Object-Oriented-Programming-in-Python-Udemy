@@ -9,7 +9,7 @@ class Student:
         instance = object.__new__(cls)
         cls.students.append(instance)
         return instance
-    
+
 
 s1 = Student()
 s2 = Student()
@@ -19,4 +19,4 @@ Student.__dict__
 Student.students
 
 
-#s4 = Student() error
+# s4 = Student() error

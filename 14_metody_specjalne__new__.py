@@ -11,11 +11,13 @@ __bool__
 
 print(dir(object))
 
-class Company:
-  'The Company class docs.'
 
-  def __init__(self,name):
-    self.name = name
+class Company:
+    'The Company class docs.'
+
+    def __init__(self, name):
+        self.name = name
+
 
 company = Company('Microsoft')
 company.__dict__

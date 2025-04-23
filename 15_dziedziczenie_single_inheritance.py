@@ -6,6 +6,8 @@ LandVehicle
 AirVehicle
 WaterVehicle
 '''
+
+
 class Vehicle:
     pass
 
@@ -30,6 +32,7 @@ help(issubclass)
 
 issubclass(Vehicle, object)
 
-issubclass(LandVehicle, Vehicle), issubclass(AirVehicle, Vehicle), issubclass(WaterVehicle, Vehicle)
+issubclass(LandVehicle, Vehicle), issubclass(
+    AirVehicle, Vehicle), issubclass(WaterVehicle, Vehicle)
 
 issubclass(WaterVehicle, object)

@@ -11,6 +11,8 @@ instances.
 Two Phone instances are created, and the show() method is
 called to print information about them.
 """
+
+
 class Phone:
 
     instances = []
@@ -30,7 +32,8 @@ class Phone:
 
     def show_brand(self):
         print(f'Brand: {self.brand}')
-    
+
+
 phone1 = Phone('Apple')
 phone2 = Phone('Samsung')
 

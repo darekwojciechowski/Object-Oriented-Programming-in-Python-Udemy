@@ -27,12 +27,13 @@ class Point:
         if not isinstance(other, Point):
             return NotImplemented
         coords = tuple(x * y for x, y in zip(self.coords, other.coords))
-        return Point(*coords)        
+        return Point(*coords)
 
     @property
     def coords(self):
         return self._coords
-    
+
+
 p1 = Point(4, 2)
 p2 = Point(3, 2)
 p1 * p2
